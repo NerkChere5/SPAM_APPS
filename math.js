@@ -3,12 +3,14 @@ let button = document.querySelector('.submit').onclick = mult;
 
 
 function mult() {
-  if (+number.value%2 === 0) {
-    let result_even = +number.value/2;
+  let numberNum = +number.value;
+  
+  if (numberNum%2 === 0) {
+    let result_even = numberNum/2;
     
     checkColor(result_even);
   } else {
-      let result_odd = +number.value*3+1;
+      let result_odd = numberNum*3+1;
       checkColor(result_odd);
   }
 }
