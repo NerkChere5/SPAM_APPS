@@ -18,12 +18,12 @@ function mult() {
 function create_element(checkResultValue, color) {
   number.value = checkResultValue;
   
-  let div = document.createElement('div');
+  let element = document.createElement('div');
   
-  div.textContent = checkResultValue;
-  div.style.color = color;
+  element.textContent = checkResultValue;
+  element.style.color = color;
   
-  document.body.append(div);
+  document.body.append(element);
 }
 
 
