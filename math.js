@@ -1,5 +1,5 @@
 let number = document.querySelector('.input');
-// let button = document.querySelector('.submit').onclick = mult;
+let button = document.querySelector('.submit').onclick = mult;
 
 
 function mult() {
@@ -13,12 +13,12 @@ function mult() {
   }
 }
 
-function create_element(value, color) {
-  number.value = value;
+function create_element(checkResultValue, color) {
+  number.value = checkResultValue;
   
   let div = document.createElement('div');
   
-  div.textContent = value;
+  div.textContent = checkResultValue;
   div.style.color = color;
   
   document.body.append(div);
