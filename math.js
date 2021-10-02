@@ -1,5 +1,5 @@
 let number = document.querySelector('.input');
-let button = document.querySelector('.submit').onclick = mult;
+// let button = document.querySelector('.submit').onclick = mult;
 
 
 function mult() {
